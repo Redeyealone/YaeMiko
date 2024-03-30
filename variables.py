@@ -45,11 +45,11 @@ class Config(object):
     BL_CHATS = []
 
     # User IDs of sudo users, dev users, support users, tiger users, and whitelist users
-    DRAGONS = [6550373781]  # Sudo users
-    DEV_USERS = [6550373781]  # Dev users
-    DEMONS = [6550373781]  # Support users
-    TIGERS = [6550373781]  # Tiger users
-    WOLVES = [6550373781]  # Whitelist users
+    DRAGONS = []  # Sudo users
+    DEV_USERS = []  # Dev users
+    DEMONS = []  # Support users
+    TIGERS = []  # Tiger users
+    WOLVES = []  # Whitelist users
 
     # Toggle features
     ALLOW_CHATS = True
