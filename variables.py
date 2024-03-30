@@ -31,10 +31,10 @@ class Config(object):
     DB_NAME = "MikoDB"
 
     # Bot token
-    TOKEN = "6708079317:AAEvx5gAuvuMq_hxbAbxGoZCzmTn8k4oCAU"  # Get bot token from @BotFather on Telegram
+    TOKEN = "6872064337:AAGyofMcK81eno1XLCTG2f4LeRf9FacB-5Y"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
-    OWNER_ID = "6550373781"
+    OWNER_ID = "6661105054"
     
     # <=======================================================================================================>
 
@@ -45,8 +45,8 @@ class Config(object):
     BL_CHATS = []
 
     # User IDs of sudo users, dev users, support users, tiger users, and whitelist users
-    DRAGONS = []  # Sudo users
-    DEV_USERS = []  # Dev users
+    DRAGONS = [6661105054]  # Sudo users
+    DEV_USERS = [6661105054]  # Dev users
     DEMONS = []  # Support users
     TIGERS = []  # Tiger users
     WOLVES = []  # Whitelist users
